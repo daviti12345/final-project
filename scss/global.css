@@ -1,0 +1,90 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .img {
+  width: 25px;
+  height: 25px;
+}
+header .contact {
+  display: flex;
+  padding-top: 48px;
+  align-items: center;
+}
+header ul {
+  display: flex;
+}
+header ul :first-child {
+  color: aqua;
+  font-size: 32px;
+  font-family: Kaisei Decol;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+header li {
+  margin-left: 20px;
+  color: black;
+  font-size: 20px;
+  font-family: JejuMyeongjo;
+  font-weight: 400;
+  word-wrap: break-word;
+}/*# sourceMappingURL=global.css.map */
