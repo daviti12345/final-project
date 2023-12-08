@@ -1,0 +1,14 @@
+@mixin contact {
+  padding-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin first-child {
+  color: rgb(206, 39, 39);
+  font-size: 32px;
+  font-family: Kaisei Decol;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-left: 5px;
+}
