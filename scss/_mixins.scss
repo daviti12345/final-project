@@ -12,3 +12,26 @@
   word-wrap: break-word;
   margin-left: 5px;
 }
+@mixin liako {
+  margin-left: 30px;
+  color: #000000;
+  font-size: 20px;
+  font-family: JejuMyeongjo;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+@mixin inputa {
+  width: 188;
+  height: 21;
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 40px;
+  border: none;
+  padding: 5px 11px;
+}
+@mixin search {
+    color: black;
+    font-size: 12px;
+    font-family: JejuMyeongjo;
+    font-weight: 400;
+    word-wrap: break-word
+  }
