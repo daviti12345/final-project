@@ -147,17 +147,36 @@ header .img1 {
     flex-direction: column;
   }
 }
-header .photo {
+
+section .photo {
   background-image: url(../images/teatre.jpg);
   width: 100%;
   height: 616px;
   margin-top: 42px;
+  margin-bottom: 60px;
+  display: flex;
+}
+section .photo .veqtors {
+  height: 616px;
+  display: flex;
+  align-items: center;
+  margin-left: 49px;
+}
+section .photo .veqtorss {
+  height: 616px;
+  display: flex;
+  align-items: center;
+  margin-right: 49px;
+}
+section .photo .div7 {
+  width: 100%;
+  height: 616px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-header .photo .div4 {
+section .photo .div7 .div4 {
   width: 684px;
   height: 100px;
   color: white;
@@ -166,7 +185,7 @@ header .photo .div4 {
   font-weight: 700;
   word-wrap: break-word;
 }
-header .photo .div5 {
+section .photo .div7 .div5 {
   background-color: rgba(234, 75, 75, 0.8980392157);
   border-radius: 8px;
   width: 127px;
@@ -179,4 +198,20 @@ header .photo .div5 {
   font-family: Jomolhari;
   font-weight: 400;
   word-wrap: break-word;
+}
+section .photo .div7 .div6 {
+  width: 102px;
+  height: 15px;
+  display: flex;
+}
+section .photo .div7 .div6 .child {
+  width: 12px;
+  height: 12px;
+  background: #7a7777;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-top: 180px;
+}
+section .photo .div7 .div6 .child1 {
+  background-color: white;
 }/*# sourceMappingURL=global.css.map */

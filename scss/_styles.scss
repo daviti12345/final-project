@@ -63,37 +63,33 @@ header {
       flex-direction: column;
     }
   }
+}
+section {
   .photo {
-    background-image: url(../images/teatre.jpg);
-    width: 100%;
-    height: 616px;
-    margin-top: 42px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    .div4 {
-      width: 684px;
-      height: 100px;
-      color: white;
-      font-size: 70px;
-      font-family: Judson;
-      font-weight: 700;
-      word-wrap: break-word;
+    @include photo;
+    .veqtors {
+      @include veqtors;
     }
-    .div5 {
-      background-color: #ea4b4be5;
-      border-radius: 8px;
-      width: 127px;
-      height: 48px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 18px;
-      font-family: Jomolhari;
-      font-weight: 400;
-      word-wrap: break-word;
+    .veqtorss {
+      @include veqtorss;
+    }
+    .div7 {
+      @include div7;
+      .div4 {
+        @include div4;
+      }
+      .div5 {
+        @include div5;
+      }
+      .div6 {
+        @include div6;
+        .child {
+          @include child;
+        }
+        .child1 {
+          background-color: white;
+        }
+      }
     }
   }
 }
