@@ -82,7 +82,7 @@ header .div {
   align-items: center;
 }
 header .first-child {
-  color: rgb(206, 39, 39);
+  color: rgb(70, 120, 220);
   font-size: 32px;
   font-family: Kaisei Decol;
   font-weight: 400;
@@ -146,4 +146,37 @@ header .img1 {
     display: flex;
     flex-direction: column;
   }
+}
+header .photo {
+  background-image: url(../images/teatre.jpg);
+  width: 100%;
+  height: 616px;
+  margin-top: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .photo .div4 {
+  width: 684px;
+  height: 100px;
+  color: white;
+  font-size: 70px;
+  font-family: Judson;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+header .photo .div5 {
+  background-color: rgba(234, 75, 75, 0.8980392157);
+  border-radius: 8px;
+  width: 127px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-family: Jomolhari;
+  font-weight: 400;
+  word-wrap: break-word;
 }/*# sourceMappingURL=global.css.map */
