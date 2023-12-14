@@ -62,7 +62,7 @@ header .container {
   margin: 0 auto;
 }
 
-header .img {
+footer .container .img, header .img {
   width: 25px;
   height: 25px;
 }
@@ -155,6 +155,7 @@ section .photo {
   margin-top: 42px;
   margin-bottom: 98px;
   display: flex;
+  background-position: center;
 }
 section .photo .veqtors {
   height: 616px;
@@ -215,6 +216,21 @@ section .photo .div7 .div6 .child {
 section .photo .div7 .div6 .child1 {
   background-color: white;
 }
+@media only screen and (max-width: 825px) {
+  section .div4 {
+    display: flex;
+    justify-content: center;
+  }
+  section .div4 p {
+    font-size: 40px;
+  }
+  section .photo .veqtors {
+    display: none;
+  }
+  section .photo .veqtorss {
+    display: none;
+  }
+}
 
 .news {
   display: flex;
@@ -256,10 +272,10 @@ section .news1 p {
   word-wrap: break-word;
   margin-top: 27px;
 }
-section input {
+section .inpute {
   width: 235px;
   height: 60px;
-  background-color: rgba(11, 37, 56, 0.8);
+  background-color: #273a47;
   border: none;
   border-radius: 5px;
   margin-top: 97px;
@@ -271,6 +287,7 @@ section input[type=submit] {
   font-weight: 400;
   word-wrap: break-word;
   text-align: center;
+  margin-bottom: 99px;
 }
 section .center {
   display: flex;
@@ -288,4 +305,138 @@ section .center {
   section .news .div {
     width: 100%;
   }
+}
+
+.section1 .photot {
+  background-image: url(../images/tteatre.jpg);
+  width: 100%;
+  height: 667px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section1 .photot p {
+  width: 400px;
+  height: 150px;
+  color: white;
+  font-size: 48px;
+  font-family: Judson;
+  font-weight: 700;
+  word-wrap: break-word;
+  text-align: center;
+  margin-top: 130px;
+}
+.section1 .photot input {
+  width: 235px;
+  height: 60px;
+  background-color: rgba(4, 14, 21, 0.8);
+  border: none;
+  border-radius: 5px;
+  margin-top: 27px;
+}
+.section1 .info {
+  width: 100% px;
+  height: 333px;
+  background-color: #273a47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section1 .info p {
+  max-width: 1140px;
+  width: 100%;
+  color: white;
+  font-size: 24px;
+  font-family: Karma;
+  font-weight: 400;
+  word-wrap: break-word;
+  text-align: center;
+}
+.section1 .info :last-child {
+  margin-top: 59px;
+}
+
+footer .foot-div {
+  width: 100%;
+  height: 430px;
+  background-color: #e4e4e4;
+}
+footer .container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+footer .container .first-child {
+  color: rgb(70, 120, 220);
+  font-size: 32px;
+  font-family: Kaisei Decol;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-left: 5px;
+}
+footer .container .div1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 140px;
+}
+footer .container .div2 h1 {
+  font-family: "Dancing Script", cursive;
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+footer .container .div2 div {
+  width: 150px;
+  height: 1px;
+  background-color: #000000;
+  margin-bottom: 32px;
+}
+footer .container .div2 p {
+  color: black;
+  font-size: 20px;
+  font-family: Kameron;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-bottom: 17px;
+}
+footer .container .div3 h1 {
+  font-family: "Dancing Script", cursive;
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+footer .container .div3 div {
+  width: 150px;
+  height: 1px;
+  background-color: #000000;
+  margin-bottom: 32px;
+}
+footer .container .div3 a {
+  color: black;
+  font-size: 20px;
+  font-family: Kameron;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+footer .container .div3 p {
+  margin-bottom: 17px;
+}
+footer .container .div5 {
+  max-width: 850px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .div5 .div4 img {
+  margin-left: 20px;
+}
+footer .container .div6 {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=global.css.map */

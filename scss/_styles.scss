@@ -92,6 +92,23 @@ section {
       }
     }
   }
+  @media only screen and (max-width: 825px) {
+    .div4 {
+      display: flex;
+      justify-content: center;
+      p {
+        font-size: 40px;
+      }
+    }
+    .photo {
+      .veqtors {
+        display: none;
+      }
+      .veqtorss {
+        display: none;
+      }
+    }
+  }
 }
 .news {
   display: flex;
@@ -115,11 +132,11 @@ section {
 section {
   .news1 {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 
-     .first {
+    .first {
       margin-bottom: 120px;
-     }
+    }
     //  .div-center {
     //   width: 324px;
     //  }
@@ -137,21 +154,22 @@ section {
       margin-top: 27px;
     }
   }
-  input {
+  .inpute {
     width: 235px;
     height: 60px;
-    background-color: #0b2538cc;
+    background-color: #273a47;
     border: none;
     border-radius: 5px;
     margin-top: 97px;
   }
-  input[type=submit] {
+  input[type="submit"] {
     color: white;
     font-size: 25px;
     font-family: JejuMyeongjo;
     font-weight: 400;
     word-wrap: break-word;
     text-align: center;
+    margin-bottom: 99px;
   }
   .center {
     display: flex;
@@ -170,6 +188,148 @@ section {
       .div {
         width: 100%;
       }
+    }
+  }
+}
+.section1 {
+  .photot {
+    background-image: url(../images/tteatre.jpg);
+    width: 100%;
+    height: 667px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+      width: 400px;
+      height: 150px;
+      color: white;
+      font-size: 48px;
+      font-family: Judson;
+      font-weight: 700;
+      word-wrap: break-word;
+      text-align: center;
+      margin-top: 130px;
+    }
+    input {
+      width: 235px;
+      height: 60px;
+      background-color: #040e15cc;
+      border: none;
+      border-radius: 5px;
+      margin-top: 27px;
+    }
+  }
+  .info {
+    width: 100%px;
+    height: 333px;
+    background-color: #273a47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+      max-width: 1140px;
+      width: 100%;
+      color: white;
+      font-size: 24px;
+      font-family: Karma;
+      font-weight: 400;
+      word-wrap: break-word;
+      text-align: center;
+    }
+    :last-child {
+      margin-top: 59px;
+    }
+  }
+}
+footer {
+  .foot-div {
+    width: 100%;
+    height: 430px;
+    background-color: #e4e4e4;
+  }
+  .container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    .first-child {
+      @include first-child;
+    }
+    .img {
+      @extend %forms;
+    }
+    .div1 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 140px;
+    }
+    .div2 {
+      h1 {
+        font-family: "Dancing Script", cursive;
+        color: black;
+        font-size: 25px;
+        font-weight: 400;
+        word-wrap: break-word;
+      }
+      div {
+        width: 150px;
+        height: 1px;
+        background-color: #000000;
+        margin-bottom: 32px;
+      }
+      p {
+        color: black;
+        font-size: 20px;
+        font-family: Kameron;
+        font-weight: 400;
+        word-wrap: break-word;
+        margin-bottom: 17px;
+      }
+    }
+    .div3 {
+      h1 {
+        font-family: "Dancing Script", cursive;
+        color: black;
+        font-size: 25px;
+        font-weight: 400;
+        word-wrap: break-word;
+      }
+      div {
+        width: 150px;
+        height: 1px;
+        background-color: #000000;
+        margin-bottom: 32px;
+      }
+      a {
+        color: black;
+        font-size: 20px;
+        font-family: Kameron;
+        font-weight: 400;
+        word-wrap: break-word;
+      }
+      p {
+        margin-bottom: 17px;
+      }
+    }
+    .div5 {
+      max-width: 850px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .div4 {
+        img {
+          margin-left: 20px;
+        }
+      }
+    }
+    .div6 {
+      display: flex;
+      justify-content: space-between;
     }
   }
 }
