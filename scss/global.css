@@ -365,7 +365,7 @@ footer .foot-div {
   background-color: #e4e4e4;
 }
 footer .container {
-  max-width: 1350px;
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
   padding-top: 40px;
@@ -461,4 +461,43 @@ footer .container img {
 }
 footer .container .pp {
   margin-right: 29px;
+}
+footer .container .div9 input {
+  width: 340px;
+  height: 40px;
+  background-color: white;
+  border-radius: 14px;
+  border: 1px solid gray;
+}
+footer .container .div9 input[type=text] {
+  color: black;
+  font-size: 20px;
+  font-family: Karma;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+footer .container .div9 .input2 {
+  width: 148px;
+  height: 40px;
+  background-color: #273a47;
+}
+footer .container .div9 .input2[type=submit] {
+  color: white;
+  font-size: 16px;
+  font-family: Karma;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+footer .container .div9 p {
+  color: black;
+  font-size: 12px;
+  font-family: Karla;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: 11px;
+}
+footer .container .div10 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=global.css.map */

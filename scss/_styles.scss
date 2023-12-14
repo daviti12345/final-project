@@ -253,7 +253,7 @@ footer {
     background-color: #e4e4e4;
   }
   .container {
-    max-width: 1350px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
     padding-top: 40px;
@@ -352,6 +352,47 @@ footer {
     }
     .pp {
       margin-right: 29px;
+    }
+    .div9 {
+      input {
+        width: 340px;
+        height: 40px;
+        background-color: white;
+        border-radius: 14px;
+        border: 1px solid gray;
+      }
+      input[type="text"] {
+        color: black;
+        font-size: 20px;
+        font-family: Karma;
+        font-weight: 400;
+        word-wrap: break-word;
+      }
+      .input2 {
+        width: 148px;
+        height: 40px;
+        background-color: #273a47;
+      }
+      .input2[type="submit"] {
+        color: white;
+        font-size: 16px;
+        font-family: Karma;
+        font-weight: 400;
+        word-wrap: break-word;
+      }
+      p {
+        color: black;
+        font-size: 12px;
+        font-family: Karla;
+        font-weight: 400;
+        word-wrap: break-word;
+        margin-top: 11px;
+      }
+    }
+    .div10 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
   }
 }
