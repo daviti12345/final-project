@@ -133,9 +133,19 @@ section {
   .news1 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+
+    &:first-child {
+      width: 62px;
+    }
+
+    &:last-child {
+      width: 62px;
+    }
 
     .first {
       margin-bottom: 120px;
+      width: 62px;
     }
     //  .div-center {
     //   width: 324px;
