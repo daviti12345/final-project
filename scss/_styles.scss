@@ -394,5 +394,34 @@ footer {
       align-items: center;
       justify-content: space-between;
     }
+    @media only screen and (max-width: 1070px) {
+      .div6 {
+        .div5 {
+          margin-left: 20px;
+        }
+      }
+    }
+    @media only screen and (max-width: 800px) {
+      .div7 {
+        display: none;
+      }
+      .div10 {
+        .div9 {
+          display: none;
+        }
+      }
+      .div6 {
+        max-width: 650px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .div6 {
+        .div5 {
+          margin-top: -100px;
+        }
+      }
+    }
   }
 }
+
