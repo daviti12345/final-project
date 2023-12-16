@@ -328,6 +328,7 @@ footer {
       }
     }
     .div6 {
+      width: 100%;
       display: flex;
       justify-content: space-between;
     }
@@ -394,13 +395,6 @@ footer {
       align-items: center;
       justify-content: space-between;
     }
-    @media only screen and (max-width: 1070px) {
-      .div6 {
-        .div5 {
-          margin-left: 20px;
-        }
-      }
-    }
     @media only screen and (max-width: 800px) {
       .div7 {
         display: none;
@@ -419,6 +413,15 @@ footer {
       .div6 {
         .div5 {
           margin-top: -100px;
+        }
+      }
+      .div5 {
+        .div4 {
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 10px;
+          }
         }
       }
     }
