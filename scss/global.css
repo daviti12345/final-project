@@ -217,7 +217,7 @@ section .photo .div7 .div6 .child {
 section .photo .div7 .div6 .child1 {
   background-color: white;
 }
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 860px) {
   section .div4 {
     display: flex;
     justify-content: center;
@@ -303,10 +303,18 @@ section .center {
 @media only screen and (max-width: 1065px) {
   section .news2 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   section .first {
     display: none;
+  }
+  section .news3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  section .div-center {
+    margin-bottom: 50px;
   }
 }
 

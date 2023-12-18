@@ -92,7 +92,7 @@ section {
       }
     }
   }
-  @media only screen and (max-width: 825px) {
+  @media only screen and (max-width: 860px) {
     .div4 {
       display: flex;
       justify-content: center;
@@ -182,10 +182,18 @@ section {
   @media only screen and (max-width: 1065px) {
     .news2 {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
     }
     .first {
       display: none;
+    }
+    .news3 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .div-center {
+      margin-bottom: 50px;
     }
   }
 }
