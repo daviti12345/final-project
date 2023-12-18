@@ -276,6 +276,7 @@ section .container .child p {
   margin-top: 27px;
 }
 section .container .first {
+  width: 30px;
   margin-top: -50px;
 }
 section .inpute {
