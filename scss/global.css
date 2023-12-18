@@ -253,18 +253,20 @@ section .photo .div7 .div6 .child1 {
   margin: 0px 10px;
 }
 
-section .news1 {
+section .container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+section .container .news2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-section .news1 .first {
-  margin-bottom: 120px;
-}
-section .news1 .pic {
+section .container .pic {
   width: 324px;
   height: 324px;
 }
-section .news1 p {
+section .container .child p {
   text-align: center;
   color: black;
   font-size: 25px;
@@ -272,6 +274,9 @@ section .news1 p {
   font-weight: 400;
   word-wrap: break-word;
   margin-top: 27px;
+}
+section .container .first {
+  margin-top: -50px;
 }
 section .inpute {
   width: 235px;
@@ -295,16 +300,12 @@ section .center {
   justify-content: center;
 }
 @media only screen and (max-width: 1065px) {
+  section .news2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
   section .first {
     display: none;
-  }
-  section .news1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  section .news .div {
-    width: 100%;
   }
 }
 
