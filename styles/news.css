@@ -8,6 +8,9 @@ header {
     width: 25px;
     height: 25px;
   }
+  .img:hover {
+    background-color: aqua;
+  }
   .contact {
     padding-top: 48px;
     display: flex;
@@ -33,6 +36,9 @@ header {
     word-wrap: break-word;
     margin-left: 5px;
   }
+  .first-child:hover {
+    background-color: aqua;
+  }
   li {
     margin-left: 30px;
     color: #000000;
@@ -40,6 +46,12 @@ header {
     font-family: JejuMyeongjo;
     font-weight: 400;
     word-wrap: break-word;
+  }
+  li:hover {
+    background-color: aquamarine;
+  }
+  .user:hover {
+    background-color: red;
   }
   .div2 {
     display: flex;
