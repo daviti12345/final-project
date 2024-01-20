@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/news.css" />
+    <link rel="stylesheet" href="styles/user.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
-      rel="stylesheet"/>
-    <title>final project ჩვენს შესახებ</title>
+      rel="stylesheet"
+    />
+    <title>final project კონტაქტები</title>
   </head>
   <body>
     <header>
@@ -21,7 +22,7 @@
           <nav>
             <ul>
               <a href="index.html"><li>მთავარი</li></a>
-              <a href="news.html"><li class="active">ჩვენს შესახებ</li></a>
+              <a href="news.html"><li>ჩვენს შესახებ</li></a>
               <a href="jino.html"> <li>სერვისები</li></a>
               <a href="fresko.html"> <li>სიახლე</li></a>
               <a href="contact.html"> <li>კონტაქტი</li></a>
@@ -37,7 +38,7 @@
           </div>
           <img class="img1" src="images/hamburger.png" alt="" />
           <div class="div1">
-            <a href="user.html"><img src="images/ph_user-light.svg" alt="" /></a>
+            <a href=""><img src="images/ph_user-light.svg" alt="" /></a>
             <a href="https://mapcarta.com/27684004">
               <img src="images/ei_location.svg" alt="" />
             </a>
@@ -46,58 +47,67 @@
         </div>
       </div>
     </header>
-    <section>
-      <div class="photo">
-        <div class="child">
-          <p>ჩვენს შესახებ</p>
-        </div>
-      </div>
-      <div class="news">
-        <div></div>
-        <p>ჩვენი თეატრი უკვე 15 წლისაა</p>
-        <div></div>
-      </div>
-    </section>
-    <section>
-      <div class="div4">
-        <div class="div3">
-          <div class="div1">
-            <div class="div2"><p>აუდიტორია</p></div>
-            <div>
-              <h1>
-                ჩვენ გვყავს საკმაოდ დიდი აუდიტორია რომელიც ჩვენი თეატრის
-                ერთგულია
-              </h1>
-            </div>
+    <div class="container1">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">სახელი</label>
           </div>
-          <div class="div1">
-            <div class="div2"><p>მსახიობები</p></div>
-            <h1>
-              ჩვენი მსახიობები ძალიან ბევრს მუშაობენ რომ იყვნენ სრულუოფილები
-            </h1>
-          </div>
-          <div class="div1">
-            <div class="div2"><p>გამოცდილება</p></div>
-            <h1>
-              15 წელი საკმაოდ დიდი გამოცდილებაა იმისთვის რომ დავდგათ ხალხისთვის
-              საინტერესო სპექტაკლები
-            </h1>
+          <div class="col-75">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="შენი სახელი.."
+            />
           </div>
         </div>
-      </div>
-      <div class="div5">
-        <div class="div6">
-          <h2>ჩვენს შესახებ</h2>
-          <p>
-            ჩვენი თეატრი აქტიურად მუშაობს უკვე 15 წელია. თეატრის გახსნის იდეა
-            დაებადა ჩემს მეგობარს, რომელსაც სურდა, რომ თავისი სიტყვა ეთქვა
-            ხელოვნებაში. 15 წლის განმავლობაში თეატრმა ბევრი სირთულე გადალახა და
-            ასე მოვიდა დღემდე. დღეს კი ჩემი აზრით, ჩვენი თეატრი საკმაოდ ცნობილი
-            და წარმატებულია
-          </p>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">გვარი</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="შენი გვარი.."
+            />
+          </div>
         </div>
-      </div>
-    </section>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">ქვეყანა</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="australia">საქართველო</option>
+              <option value="canada">იტალია</option>
+              <option value="usa">აშშ</option>
+              <option value="usa">საფრანგეთი</option>
+              <option value="usa">ესპანეთი</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">თემა</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
     <footer>
       <div class="foot-div">
         <div class="container">
